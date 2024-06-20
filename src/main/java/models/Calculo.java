@@ -10,15 +10,14 @@ public class Calculo {
     }
     public long calcFactorial(int num){
         long resultado = 1;
-
-        if(num < 0){
-            throw new IllegalArgumentException("El numero no debe ser negativo");
+        if(num == 0){
+            return 1;
         }
 
         for(int i = 1 ; i <= num; i++){
             resultado *=i;
         }
-
         return  resultado;
     }
+
 }

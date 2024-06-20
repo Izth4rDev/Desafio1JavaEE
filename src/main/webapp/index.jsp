@@ -10,7 +10,6 @@
           rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
 <body>
-
 <table class="table">
     <thead>
     <tr>
@@ -21,6 +20,12 @@
     </tr>
     </thead>
     <tbody>
+    <tr>
+        <th scope="row">0</th>
+        <td colspan="2">Número 0</td>
+        <td><a href="servletCalcular?num=0&accion=fact ">Número 0</a></td>
+        <td><a href="servletCalcular?num=0&accion=par">¿Es par o impar el número 0?</a></td>
+    </tr>
         <tr>
             <th scope="row">1</th>
             <td colspan="2">Número 1</td>

@@ -14,8 +14,8 @@ public class servletCalcular extends HttpServlet {
 
     public void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException {
         Calculo calculo = new Calculo();
-        int numero = Integer.parseInt(request.getParameter("num")); //numero contiene 2
-        String accion = request.getParameter("accion");             //accion contiene fact
+        int numero = Integer.parseInt(request.getParameter("num"));
+        String accion = request.getParameter("accion");
 
         if(accion.equals("par")){
             String resultadoPar = calculo.calPar(numero);
@@ -23,7 +23,17 @@ public class servletCalcular extends HttpServlet {
         }else{
             long resultadoFactorial = calculo.calcFactorial(numero);
             String result = String.valueOf(resultadoFactorial);
-            response.getWriter().append(result);
+
+            long resultadoPrint = 1;
+            long aux = 1;
+
+            for(int i = 1; i<= numero; i++){
+                resultadoPrint *= i;
+                response.getWriter().append( aux +"X"+i+"=" + String.valueOf(resultadoPrint) +"\n");
+                aux = resultadoPrint;
+            }
+
+            response.getWriter().append("El resultado final es: "+ result);
         }
     }
 

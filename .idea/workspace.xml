@@ -10,22 +10,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0d234021-7550-4512-9b9f-c1908ac09b52" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cl/praxis/desafio1jee/servletCalcular.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/models/Calculo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/beans.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cl/praxis/desafio1jee/servletCalcular.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cl/praxis/desafio1jee/servletCalcular.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/models/Calculo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/Calculo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
     </list>
-    <list id="aadfe1ad-b0f9-4b27-8fea-c8de8554ff0a" name="Changes by Puchi" comment="" />
+    <list id="76c145d5-9bb0-4c33-9101-604476286b29" name="Changes by matia" comment="" />
+    <list id="3790314c-2d6e-4552-82c1-ba941b128e27" name="Changes by Puchi" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+    </list>
+    <list id="1381f09d-bff2-49a4-8a7f-35b5168c7ed1" name="Changes by tmlin" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/models/Calculo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/Calculo.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,12 +37,30 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="LineStatusTrackerManager">
+    <file path="$PROJECT_DIR$/src/main/java/models/Calculo.java">
+      <ranges>
+        <range start1="12" end1="15" start2="12" end2="14" changelist="0d234021-7550-4512-9b9f-c1908ac09b52" />
+        <range start1="20" end1="21" start2="19" end2="19" changelist="1381f09d-bff2-49a4-8a7f-35b5168c7ed1" />
+        <range start1="23" end1="23" start2="21" end2="22" changelist="1381f09d-bff2-49a4-8a7f-35b5168c7ed1" />
+      </ranges>
+    </file>
+    <file path="$PROJECT_DIR$/src/main/webapp/index.jsp">
+      <ranges>
+        <range start1="12" end1="13" start2="12" end2="12" changelist="0d234021-7550-4512-9b9f-c1908ac09b52" />
+        <range start1="23" end1="23" start2="22" end2="28" changelist="3790314c-2d6e-4552-82c1-ba941b128e27" />
+      </ranges>
+    </file>
+  </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
     <option name="FILTER_WARNINGS" value="false" />
     <option name="FILTER_INFO" value="true" />
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -64,21 +78,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;Tomcat Server.Tomcat 10.1.241.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "Tomcat Server.Tomcat 10.1.241.executor": "Run",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="Tomcat 10.1.241" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 10.1.241" ALTERNATIVE_JRE_ENABLED="false">
       <deployment>
@@ -135,7 +154,7 @@
       <option name="presentableId" value="Default" />
       <updated>1718838863718</updated>
       <workItem from="1718838864846" duration="304000" />
-      <workItem from="1718839172478" duration="4158000" />
+      <workItem from="1718839172478" duration="10547000" />
     </task>
     <servers />
   </component>
